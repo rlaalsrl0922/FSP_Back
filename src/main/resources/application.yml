@@ -1,3 +1,8 @@
 spring:
   application:
     name: StockTrading
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
