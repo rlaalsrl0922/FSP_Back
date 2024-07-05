@@ -12,6 +12,7 @@ import static lombok.AccessLevel.PROTECTED;
 public class Member extends BaseTimeEntity {
 
     @Id
+    @GeneratedValue
     private String id;
 
     private String password;
