@@ -1,7 +1,7 @@
-package com.stocktrading.member.dto;
+package com.stocktrading.member.controller.dto;
 
 public record MemberLoginRequest(
-        String id,
+
         String username,
         String password
 ) {

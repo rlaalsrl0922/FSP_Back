@@ -1,8 +1,8 @@
 package com.stocktrading.member.controller;
 
 import com.stocktrading.global.jwt.JwtToken;
-import com.stocktrading.member.dto.MemberLoginRequest;
-import com.stocktrading.member.dto.MemberSignUpRequest;
+import com.stocktrading.member.controller.dto.MemberLoginRequest;
+import com.stocktrading.member.controller.dto.MemberSignUpRequest;
 import com.stocktrading.member.service.MemberService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
