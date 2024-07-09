@@ -22,7 +22,6 @@ public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    public MemberService(MemberRepository memberRepository) {
     private final AuthenticationManagerBuilder authenticationManagerBuilder;
 
     private final PasswordEncoder passwordEncoder;
@@ -36,10 +35,6 @@ public class MemberService {
         this.jwtProvider = jwtProvider;
     }
 
-    public boolean login(String id, String password) {
-        Member member = memberRepository.findByMemberId(id)
-                .orElseThrow(() -> new IllegalArgumentException("Invalid username or password"));
-        return member.login(password);
     public JwtToken login(String username, String password) {
         // 1. username + password 를 기반으로 Authentication 객체 생성
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(username, password);
@@ -53,9 +48,7 @@ public class MemberService {
         return jwtProvider.generateToken(authentication);
     }
 
-    public boolean signUp(String id, String password, String nickName) {
-        Member member = new Member(id, password, nickName);
-        if (id.isBlank()) {
+
     public void signUp(String username, String password, String nickName) {
         if (username == null || username.isBlank()) {
             throw new IllegalArgumentException("Invalid username or password");
@@ -73,7 +66,6 @@ public class MemberService {
                 nickName,
                 roles);
         memberRepository.save(member);
-        return true;
         log.info("username: {}, password: {}", username, password);
     }
 

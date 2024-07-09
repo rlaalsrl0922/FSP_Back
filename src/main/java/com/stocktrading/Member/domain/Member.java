@@ -21,7 +21,6 @@ import static lombok.AccessLevel.PROTECTED;
 
 @Entity
 @NoArgsConstructor(access = PROTECTED)
-public class Member extends BaseTimeEntity {
 @EqualsAndHashCode(of = "id", callSuper = false)
 public class Member extends BaseTimeEntity implements UserDetails {
 
@@ -30,15 +29,14 @@ public class Member extends BaseTimeEntity implements UserDetails {
     @GeneratedValue
     private Long id;
 
-    private String memberId;
+
     private String username;
 
     private String password;
 
     private String nickName;
 
-    public Member(String memberId, String password, String nickName) {
-        this.memberId = memberId;
+
     @Getter
     @ElementCollection(fetch = FetchType.EAGER)
     private List<String> roles = new ArrayList<>();
@@ -82,8 +80,7 @@ public class Member extends BaseTimeEntity implements UserDetails {
         return true;
     }
 
-    public boolean login(String password) {
-        return this.password.equals(password);
+
     @Override
     public boolean isEnabled() {
         return true;
