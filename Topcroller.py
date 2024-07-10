@@ -21,9 +21,27 @@ def main():
             
             data.append({
                 'name': company_name,
-                'code': company_code,
-                'logo': "https://companiesmarketcap.com/"+company_logo
+                'ticker': company_code,
+                'logoUrl': "https://companiesmarketcap.com/"+company_logo
             })
+        idx = 0
+        for td in soup.find_all('td', class_='td-right'):
+            price = td.text.strip()
+            if price.startswith('$') and not price[-1].isalpha():
+                data[idx]['price'] = price
+                idx+=1
+
+
+        idx = 0
+        for td in soup.find_all('td', class_='rh-sm'):
+            today = td.find('span').text.strip()
+            data[idx]['today'] = today
+            idx += 1
+
+
+
+
+
         with open('company_data.json', 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4, ensure_ascii=False)
          
