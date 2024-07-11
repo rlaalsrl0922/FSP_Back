@@ -32,5 +32,9 @@ public class NewsService {
         }
         log.info("뉴스 최신화 완료, news 총 갯수: {}", newsList.size());
     }
-
+    public List<News> getNews(String ticker) {
+        return newsRepository.findAllByTicker(ticker).stream()
+                .sorted((a, b) -> b.getTime().compareTo(a.getTime()))
+                .toList();
+    }
 }
