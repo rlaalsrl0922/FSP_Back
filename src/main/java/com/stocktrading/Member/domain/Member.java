@@ -29,13 +29,11 @@ public class Member extends BaseTimeEntity implements UserDetails {
     @GeneratedValue
     private Long id;
 
-
     private String username;
 
     private String password;
 
     private String nickName;
-
 
     @Getter
     @ElementCollection(fetch = FetchType.EAGER)
@@ -79,7 +77,6 @@ public class Member extends BaseTimeEntity implements UserDetails {
     public boolean isCredentialsNonExpired() {
         return true;
     }
-
 
     @Override
     public boolean isEnabled() {

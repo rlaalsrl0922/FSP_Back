@@ -113,7 +113,8 @@ public class JwtProvider {
         }
         return false;
     }
-     public String getUsername(String accessToken) {
+
+    public String getUsername(String accessToken) {
         try {
             return Jwts.parser()
                     .verifyWith((SecretKey) key)
@@ -125,4 +126,5 @@ public class JwtProvider {
             return null;
         }
     }
+
 }

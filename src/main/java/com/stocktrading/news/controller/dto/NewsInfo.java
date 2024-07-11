@@ -30,4 +30,5 @@ public record NewsInfo(
                 .ticker(tickers)
                 .build();
     }
+
 }

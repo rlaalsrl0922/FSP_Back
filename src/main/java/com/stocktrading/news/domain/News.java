@@ -10,18 +10,25 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+
 import java.time.LocalDateTime;
+
 import static lombok.AccessLevel.PROTECTED;
+
 @Entity
 @ToString
 @NoArgsConstructor(access = PROTECTED)
 public class News extends BaseTimeEntity {
+
     @Id
     @Getter
     @GeneratedValue
     private Long id;
+
     private Long serialNumber; // 뉴스 고유 id
+
     private String title;
+
     @Lob
     private String url;
 
@@ -32,6 +39,7 @@ public class News extends BaseTimeEntity {
 
     @Getter
     private String ticker;
+
     @Builder
     public News(Long serialNumber, String title, String url, String faviconUrl, LocalDateTime time, String ticker) {
         this.serialNumber = serialNumber;

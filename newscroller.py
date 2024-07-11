@@ -53,10 +53,14 @@ def get_news(ticker,cnt):
         split_ticker(parsed_data)
         
         for story in parsed_data.get('stories', []):
-            del story['description']
-            del story['tags']
-            del story['site']
-
+            if 'description' in story:
+                del story['description']
+            if 'tags' in story:
+                del story['tags']
+            if 'site' in story:
+                del story['site']
+        if 'last_id' in parsed_data:        
+            del parsed_data['last_id']
 
         # JSON 파일로 저장
         with open(f'{ticker}.json', 'w', encoding='utf-8') as output_file:
@@ -65,11 +69,12 @@ def get_news(ticker,cnt):
     else : 
         print(response.status_code)
 
-
+    '''
     file_path = f'{ticker}.json'
 
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
+    '''
     return parsed_data
 
 def extract_tickers_from_json(file_path):
@@ -90,11 +95,11 @@ def main():
         data=get_news(i,10)
   
 
-    response = requests.post(url, headers=headers, json=data)
+    '''response = requests.post(url, headers=headers, json=data)
     if response.status_code==204:
         print('complete')
     else:
-        print('error')
+        print('error')'''
 
 if __name__ =="__main__":
     main()

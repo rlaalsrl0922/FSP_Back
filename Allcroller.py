@@ -46,7 +46,8 @@ def get_news(ticker,cnt):
             del story['description']
             del story['tags']
             del story['site']
-
+        if 'last_id' in parsed_data:        
+            del parsed_data['last_id']
 
         # JSON 파일로 저장
         with open(f'{ticker}.json', 'w', encoding='utf-8') as output_file:
@@ -125,6 +126,7 @@ def main():
 
     top_url = 'http://localhost:8080/stocks/top100'
     headers = {'Content-Type': 'application/json; charset=utf-8'}
+
     post_response = requests.post(top_url,headers=headers,json=data)
     if post_response.status_code == 204:
         print('complete')
@@ -132,14 +134,17 @@ def main():
         print("error")
 
 
-
+    print("Starting News Post")
     ticker_list=extract_tickers_from_json('Toplist.json')
     news_url = "http://localhost:8080/news"
 
-    cnt=0
+
     with tqdm(total=len(ticker_list)) as pbar:
         for i in ticker_list:
-            data=get_news(i,10)
+            #data=get_news(i,10)
+            path = f'test\\{i}.json'
+            with open(path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
 
             response = requests.post(news_url, headers=headers, json=data)
             if response.status_code!=204:

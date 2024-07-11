@@ -18,10 +18,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/stocks")
 public class StockController {
+
     private final StockService stockService;
+
     public StockController(StockService stockService) {
         this.stockService = stockService;
     }
+
     @GetMapping("/{stockTicker}")
     public ResponseEntity<Void> getStockInfo(@PathVariable String stockTicker) {
         stockService.findStock(stockTicker);

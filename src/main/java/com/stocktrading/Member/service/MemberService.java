@@ -48,7 +48,6 @@ public class MemberService {
         return jwtProvider.generateToken(authentication);
     }
 
-
     public void signUp(String username, String password, String nickName) {
         if (username == null || username.isBlank()) {
             throw new IllegalArgumentException("Invalid username or password");

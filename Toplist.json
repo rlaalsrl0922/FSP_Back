@@ -1,0 +1,702 @@
+[
+    {
+        "name": "Apple",
+        "ticker": "AAPL",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AAPL.png",
+        "price": "$232.98",
+        "today": "+1.88%"
+    },
+    {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MSFT.png",
+        "price": "$466.25",
+        "today": "+1.46%"
+    },
+    {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NVDA.png",
+        "price": "$134.91",
+        "today": "+2.69%"
+    },
+    {
+        "name": "Alphabet (Google)",
+        "ticker": "GOOG",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/GOOG.png",
+        "price": "$192.66",
+        "today": "+1.17%"
+    },
+    {
+        "name": "Amazon",
+        "ticker": "AMZN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AMZN.png",
+        "price": "$199.79",
+        "today": "+0.23%"
+    },
+    {
+        "name": "Saudi Aramco",
+        "ticker": "2222.SR",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/2222.SR.png",
+        "price": "$7.48",
+        "today": "-0.18%"
+    },
+    {
+        "name": "Meta Platforms (Facebook)",
+        "ticker": "META",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/META.png",
+        "price": "$534.69",
+        "today": "+0.88%"
+    },
+    {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TSM.png",
+        "price": "$191.05",
+        "today": "+3.54%"
+    },
+    {
+        "name": "Berkshire Hathaway",
+        "ticker": "BRK-B",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/BRK-B.png",
+        "price": "$413.79",
+        "today": "+0.80%"
+    },
+    {
+        "name": "Eli Lilly",
+        "ticker": "LLY",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/LLY.png",
+        "price": "$939.78",
+        "today": "+0.78%"
+    },
+    {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TSLA.png",
+        "price": "$263.26",
+        "today": "+0.35%"
+    },
+    {
+        "name": "Broadcom",
+        "ticker": "AVGO",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AVGO.png",
+        "price": "$1,745",
+        "today": "+0.66%"
+    },
+    {
+        "name": "Novo Nordisk",
+        "ticker": "NVO",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NVO.png",
+        "price": "$142.74",
+        "today": "+1.64%"
+    },
+    {
+        "name": "JPMorgan Chase",
+        "ticker": "JPM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/JPM.png",
+        "price": "$207.80",
+        "today": "+0.08%"
+    },
+    {
+        "name": "Walmart",
+        "ticker": "WMT",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/WMT.png",
+        "price": "$70.41",
+        "today": "+0.73%"
+    },
+    {
+        "name": "Visa",
+        "ticker": "V",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/V.png",
+        "price": "$263.00",
+        "today": "-0.92%"
+    },
+    {
+        "name": "Exxon Mobil",
+        "ticker": "XOM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/XOM.png",
+        "price": "$111.92",
+        "today": "+0.88%"
+    },
+    {
+        "name": "UnitedHealth",
+        "ticker": "UNH",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/UNH.png",
+        "price": "$500.93",
+        "today": "+1.79%"
+    },
+    {
+        "name": "Tencent",
+        "ticker": "TCEHY",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TCEHY.png",
+        "price": "$48.62",
+        "today": "-0.92%"
+    },
+    {
+        "name": "ASML",
+        "ticker": "ASML",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ASML.png",
+        "price": "$1,099",
+        "today": "+3.68%"
+    },
+    {
+        "name": "Samsung",
+        "ticker": "005930.KS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/005930.KS.png",
+        "price": "$63.54",
+        "today": "-0.23%"
+    },
+    {
+        "name": "Mastercard",
+        "ticker": "MA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MA.png",
+        "price": "$433.64",
+        "today": "-2.49%"
+    },
+    {
+        "name": "Procter & Gamble",
+        "ticker": "PG",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PG.png",
+        "price": "$166.80",
+        "today": "+0.69%"
+    },
+    {
+        "name": "Costco",
+        "ticker": "COST",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/COST.png",
+        "price": "$884.31",
+        "today": "-0.29%"
+    },
+    {
+        "name": "Oracle",
+        "ticker": "ORCL",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ORCL.png",
+        "price": "$142.07",
+        "today": "+0.99%"
+    },
+    {
+        "name": "LVMH",
+        "ticker": "MC.PA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MC.PA.png",
+        "price": "$761.95",
+        "today": "+0.76%"
+    },
+    {
+        "name": "Johnson & Johnson",
+        "ticker": "JNJ",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/JNJ.png",
+        "price": "$149.43",
+        "today": "+1.62%"
+    },
+    {
+        "name": "Home Depot",
+        "ticker": "HD",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/HD.png",
+        "price": "$344.18",
+        "today": "+2.10%"
+    },
+    {
+        "name": "Bank of America",
+        "ticker": "BAC",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/BAC.png",
+        "price": "$41.74",
+        "today": "+0.77%"
+    },
+    {
+        "name": "Merck",
+        "ticker": "MRK",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MRK.png",
+        "price": "$127.30",
+        "today": "+1.00%"
+    },
+    {
+        "name": "AMD",
+        "ticker": "AMD",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AMD.png",
+        "price": "$183.96",
+        "today": "+3.87%"
+    },
+    {
+        "name": "AbbVie",
+        "ticker": "ABBV",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ABBV.png",
+        "price": "$168.14",
+        "today": "+0.05%"
+    },
+    {
+        "name": "Netflix",
+        "ticker": "NFLX",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NFLX.png",
+        "price": "$677.65",
+        "today": "-1.18%"
+    },
+    {
+        "name": "Chevron",
+        "ticker": "CVX",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CVX.png",
+        "price": "$155.13",
+        "today": "+1.41%"
+    },
+    {
+        "name": "Toyota",
+        "ticker": "TM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TM.png",
+        "price": "$205.88",
+        "today": "+2.09%"
+    },
+    {
+        "name": "ICBC",
+        "ticker": "1398.HK",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/1398.HK.png",
+        "price": "$0.56",
+        "today": "+0.93%"
+    },
+    {
+        "name": "Nestlé",
+        "ticker": "NESN.SW",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NESN.SW.png",
+        "price": "$103.91",
+        "today": "+0.15%"
+    },
+    {
+        "name": "Coca-Cola",
+        "ticker": "KO",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/KO.png",
+        "price": "$62.83",
+        "today": "+0.22%"
+    },
+    {
+        "name": "Reliance Industries",
+        "ticker": "RELIANCE.NS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/RELIANCE.NS.png",
+        "price": "$38.35",
+        "today": "+1.07%"
+    },
+    {
+        "name": "PetroChina",
+        "ticker": "601857.SS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/601857.SS.png",
+        "price": "$1.44",
+        "today": "+1.26%"
+    },
+    {
+        "name": "Kweichow Moutai",
+        "ticker": "600519.SS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/600519.SS.png",
+        "price": "$201.12",
+        "today": "+1.70%"
+    },
+    {
+        "name": "Adobe",
+        "ticker": "ADBE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ADBE.png",
+        "price": "$564.55",
+        "today": "-0.26%"
+    },
+    {
+        "name": "International Holding Company",
+        "ticker": "IHC.AE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/IHC.AE.png",
+        "price": "$112.25",
+        "today": "-0.15%"
+    },
+    {
+        "name": "Salesforce",
+        "ticker": "CRM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CRM.png",
+        "price": "$252.59",
+        "today": "+0.06%"
+    },
+    {
+        "name": "AstraZeneca",
+        "ticker": "AZN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AZN.png",
+        "price": "$77.75",
+        "today": "+1.41%"
+    },
+    {
+        "name": "Hermès",
+        "ticker": "RMS.PA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/RMS.PA.png",
+        "price": "$2,274",
+        "today": "+0.57%"
+    },
+    {
+        "name": "SAP",
+        "ticker": "SAP",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/SAP.png",
+        "price": "$202.29",
+        "today": "+1.00%"
+    },
+    {
+        "name": "L'Oréal",
+        "ticker": "OR.PA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/OR.PA.png",
+        "price": "$439.19",
+        "today": "+0.43%"
+    },
+    {
+        "name": "QUALCOMM",
+        "ticker": "QCOM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/QCOM.png",
+        "price": "$208.80",
+        "today": "+0.81%"
+    },
+    {
+        "name": "Shell",
+        "ticker": "SHEL",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/SHEL.png",
+        "price": "$72.93",
+        "today": "+0.48%"
+    },
+    {
+        "name": "Roche",
+        "ticker": "ROG.SW",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ROG.SW.png",
+        "price": "$280.69",
+        "today": "+1.37%"
+    },
+    {
+        "name": "Pepsico",
+        "ticker": "PEP",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PEP.png",
+        "price": "$163.59",
+        "today": "+1.04%"
+    },
+    {
+        "name": "Novartis",
+        "ticker": "NVS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NVS.png",
+        "price": "$109.94",
+        "today": "+1.58%"
+    },
+    {
+        "name": "China Mobile",
+        "ticker": "0941.HK",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/0941.HK.png",
+        "price": "$9.83",
+        "today": "+1.25%"
+    },
+    {
+        "name": "T-Mobile US",
+        "ticker": "TMUS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TMUS.png",
+        "price": "$180.52",
+        "today": "+0.82%"
+    },
+    {
+        "name": "Agricultural Bank of China",
+        "ticker": "601288.SS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/601288.SS.png",
+        "price": "$0.62",
+        "today": "-0.88%"
+    },
+    {
+        "name": "Applied Materials",
+        "ticker": "AMAT",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AMAT.png",
+        "price": "$254.97",
+        "today": "+1.39%"
+    },
+    {
+        "name": "Linde",
+        "ticker": "LIN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/LIN.png",
+        "price": "$434.95",
+        "today": "+0.87%"
+    },
+    {
+        "name": "Wells Fargo",
+        "ticker": "WFC",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/WFC.png",
+        "price": "$59.72",
+        "today": "-0.27%"
+    },
+    {
+        "name": "Thermo Fisher Scientific",
+        "ticker": "TMO",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TMO.png",
+        "price": "$536.87",
+        "today": "+0.94%"
+    },
+    {
+        "name": "Arm Holdings",
+        "ticker": "ARM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ARM.png",
+        "price": "$186.46",
+        "today": "+2.29%"
+    },
+    {
+        "name": "Pinduoduo",
+        "ticker": "PDD",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PDD.png",
+        "price": "$138.07",
+        "today": "+0.25%"
+    },
+    {
+        "name": "Cisco",
+        "ticker": "CSCO",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CSCO.png",
+        "price": "$46.27",
+        "today": "+1.03%"
+    },
+    {
+        "name": "Texas Instruments",
+        "ticker": "TXN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TXN.png",
+        "price": "$203.62",
+        "today": "+1.73%"
+    },
+    {
+        "name": "Accenture",
+        "ticker": "ACN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ACN.png",
+        "price": "$295.44",
+        "today": "-0.88%"
+    },
+    {
+        "name": "General Electric",
+        "ticker": "GE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/GE.png",
+        "price": "$165.70",
+        "today": "+1.58%"
+    },
+    {
+        "name": "Alibaba",
+        "ticker": "BABA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/BABA.png",
+        "price": "$76.01",
+        "today": "+0.41%"
+    },
+    {
+        "name": "McDonald",
+        "ticker": "MCD",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MCD.png",
+        "price": "$250.49",
+        "today": "+1.90%"
+    },
+    {
+        "name": "Danaher",
+        "ticker": "DHR",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/DHR.png",
+        "price": "$242.20",
+        "today": "+1.01%"
+    },
+    {
+        "name": "Abbott Laboratories",
+        "ticker": "ABT",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ABT.png",
+        "price": "$103.05",
+        "today": "+1.39%"
+    },
+    {
+        "name": "Intuit",
+        "ticker": "INTU",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/INTU.png",
+        "price": "$632.84",
+        "today": "-2.57%"
+    },
+    {
+        "name": "Walt Disney",
+        "ticker": "DIS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/DIS.png",
+        "price": "$96.97",
+        "today": "-0.08%"
+    },
+    {
+        "name": "China Construction Bank",
+        "ticker": "601939.SS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/601939.SS.png",
+        "price": "$1.06",
+        "today": "-0.65%"
+    },
+    {
+        "name": "Bank of China",
+        "ticker": "601988.SS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/601988.SS.png",
+        "price": "$0.65",
+        "today": "-1.05%"
+    },
+    {
+        "name": "Verizon",
+        "ticker": "VZ",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/VZ.png",
+        "price": "$41.08",
+        "today": "+1.10%"
+    },
+    {
+        "name": "Amgen",
+        "ticker": "AMGN",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AMGN.png",
+        "price": "$321.67",
+        "today": "+1.82%"
+    },
+    {
+        "name": "American Express",
+        "ticker": "AXP",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/AXP.png",
+        "price": "$238.93",
+        "today": "+0.50%"
+    },
+    {
+        "name": "Tata Consultancy Services",
+        "ticker": "TCS.NS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TCS.NS.png",
+        "price": "$46.83",
+        "today": "+0.03%"
+    },
+    {
+        "name": "Morgan Stanley",
+        "ticker": "MS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MS.png",
+        "price": "$103.46",
+        "today": "+0.83%"
+    },
+    {
+        "name": "IBM",
+        "ticker": "IBM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/IBM.png",
+        "price": "$177.84",
+        "today": "+0.77%"
+    },
+    {
+        "name": "Pfizer",
+        "ticker": "PFE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PFE.png",
+        "price": "$28.35",
+        "today": "+2.27%"
+    },
+    {
+        "name": "Caterpillar",
+        "ticker": "CAT",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CAT.png",
+        "price": "$328.48",
+        "today": "+0.74%"
+    },
+    {
+        "name": "HSBC",
+        "ticker": "HSBC",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/HSBC.png",
+        "price": "$43.20",
+        "today": "+0.51%"
+    },
+    {
+        "name": "Philip Morris",
+        "ticker": "PM",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PM.png",
+        "price": "$102.76",
+        "today": "+1.07%"
+    },
+    {
+        "name": "Intuitive Surgical",
+        "ticker": "ISRG",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/ISRG.png",
+        "price": "$444.74",
+        "today": "+0.55%"
+    },
+    {
+        "name": "TotalEnergies",
+        "ticker": "TTE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/TTE.png",
+        "price": "$68.14",
+        "today": "+0.07%"
+    },
+    {
+        "name": "Prosus",
+        "ticker": "PRX.AS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/PRX.AS.png",
+        "price": "$36.01",
+        "today": "+0.82%"
+    },
+    {
+        "name": "Royal Bank Of Canada",
+        "ticker": "RY",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/RY.png",
+        "price": "$110.76",
+        "today": "+1.07%"
+    },
+    {
+        "name": "Inditex",
+        "ticker": "IDEXY",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/IDEXY.png",
+        "price": "$24.94",
+        "today": "+1.46%"
+    },
+    {
+        "name": "Goldman Sachs",
+        "ticker": "GS",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/GS.png",
+        "price": "$478.89",
+        "today": "+1.28%"
+    },
+    {
+        "name": "HDFC Bank",
+        "ticker": "HDB",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/HDB.png",
+        "price": "$60.36",
+        "today": "-1.52%"
+    },
+    {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NOW.png",
+        "price": "$743.15",
+        "today": "-0.12%"
+    },
+    {
+        "name": "Siemens",
+        "ticker": "SIE.DE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/SIE.DE.png",
+        "price": "$191.83",
+        "today": "+0.33%"
+    },
+    {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/MU.png",
+        "price": "$136.39",
+        "today": "+4.00%"
+    },
+    {
+        "name": "Nextera Energy",
+        "ticker": "NEE",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/NEE.png",
+        "price": "$72.90",
+        "today": "+1.08%"
+    },
+    {
+        "name": "Intel",
+        "ticker": "INTC",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/INTC.png",
+        "price": "$34.87",
+        "today": "+0.81%"
+    },
+    {
+        "name": "BHP Group",
+        "ticker": "BHP",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/BHP.png",
+        "price": "$58.55",
+        "today": "+0.33%"
+    },
+    {
+        "name": "Lam Research",
+        "ticker": "LRCX",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/LRCX.png",
+        "price": "$1,127",
+        "today": "+1.33%"
+    },
+    {
+        "name": "Commonwealth Bank",
+        "ticker": "CBA.AX",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CBA.AX.png",
+        "price": "$87.87",
+        "today": "+1.07%"
+    },
+    {
+        "name": "Comcast",
+        "ticker": "CMCSA",
+        "logoUrl": "https://companiesmarketcap.com//img/company-logos/64/CMCSA.png",
+        "price": "$37.43",
+        "today": "-0.21%"
+    }
+]

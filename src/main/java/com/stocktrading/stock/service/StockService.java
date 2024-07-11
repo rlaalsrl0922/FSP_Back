@@ -13,10 +13,13 @@ import java.util.List;
 
 @Service
 public class StockService {
+
     private final StockRepository stockRepository;
+
     public StockService(StockRepository stockRepository) {
         this.stockRepository = stockRepository;
     }
+
     public void findStock(String stockTicker) {
         try {
             Stock stock = YahooFinance.get(stockTicker);
