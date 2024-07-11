@@ -7,6 +7,7 @@ import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -25,8 +26,9 @@ public class StockService {
         }
     }
 
-    public void initTop100(List<StockInfo> stockInfos) {
-        stockRepository.deleteAll();
+    public void initTop100(final List<StockInfo> stockInfos) {
+        stockRepository.deleteAllInBatch();
+        List<com.stocktrading.stock.domain.Stock> stocks = new ArrayList<>();
         for (StockInfo stockInfo : stockInfos) {
             String parsedPrice = stockInfo.price().substring(1).replace(",", "");
             String parsedToday = stockInfo.today().substring(1, stockInfo.today().length() - 1);
@@ -37,8 +39,9 @@ public class StockService {
                     .price(Double.parseDouble(parsedPrice))
                     .today(stockInfo.today().charAt(0) == '+' ? Float.parseFloat(parsedToday) : - Float.parseFloat(parsedToday))
                     .build();
-            stockRepository.save(newStock);
+            stocks.add(newStock);
         }
+        stockRepository.saveAll(stocks);
     }
 
     public List<StockInfo> getTop100() {
