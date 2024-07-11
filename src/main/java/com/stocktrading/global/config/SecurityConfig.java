@@ -29,7 +29,7 @@ public class SecurityConfig {
                 .sessionManagement(sess -> sess
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth", "/auth/login", "/stocks/top100").permitAll()
+                        .requestMatchers("/auth", "/auth/login", "/stocks/top100","/news").permitAll()
                         .requestMatchers("/auth/test").hasRole("USER")
                         .anyRequest().authenticated())
 //                .logout(logout -> logout
