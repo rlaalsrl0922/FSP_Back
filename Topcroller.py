@@ -23,7 +23,7 @@ def main():
                 'name': company_name,
                 'ticker': company_code,
                 'logoUrl': "https://companiesmarketcap.com/"+company_logo
-            })
+            })  
         idx = 0
         for td in soup.find_all('td', class_='td-right'):
             price = td.text.strip()
@@ -43,12 +43,19 @@ def main():
             data[idx]['today'] = today
             idx += 1
 
-        with open('company_data.json', 'w', encoding='utf-8') as json_file:
+        with open('Toplist.json', 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4, ensure_ascii=False)
          
     else:
         print(response.status_code)
     
+    server_url = 'http://localhost:8080/stocks/top100'
+    headers = {'Content-Type': 'application/json; charset=utf-8'}
+    post_response = requests.post(server_url,headers=headers,json=data)
+    if post_response.status_code == 204:
+        print('complete')
+    else:
+        print("error")
 
 
 if __name__ == "__main__":
