@@ -7,6 +7,7 @@ import json
 from datetime import datetime
 import yfinance as yf
 import pandas as pd
+from tqdm import tqdm
 
 def update_time(d):
     if isinstance(d, dict):
@@ -136,16 +137,15 @@ def main():
     news_url = "http://localhost:8080/news"
 
     cnt=0
-    for i in ticker_list:
-        data=get_news(i,10)
+    with tqdm(total=len(ticker_list)) as pbar:
+        for i in ticker_list:
+            data=get_news(i,10)
 
-        response = requests.post(news_url, headers=headers, json=data)
-        cnt+=1
-        if cnt%10==0 and response.status_code==204:
-            print('complete')
-        else:
-            print('error')
-
+            response = requests.post(news_url, headers=headers, json=data)
+            if response.status_code!=204:
+                print(f'error occur : {response.status_code}')
+                break
+            pbar.update(1)
 
 if __name__ == "__main__":
     main()
